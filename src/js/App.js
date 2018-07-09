@@ -142,7 +142,7 @@ class App extends Component {
         cities
       }
     }, () => {
-      console.log(this.state)
+      // console.log(this.state)
     })
     
     

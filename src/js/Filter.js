@@ -49,7 +49,7 @@ export default class Header extends Component {
        if(this.props.globalState.populateFormsData.bedrooms !== undefined){
           var {bedrooms} = 
           this.props.globalState.populateFormsData
-      console.log(bedrooms)
+    //   console.log(bedrooms)
       return bedrooms.map((item) => {
           return (
               <option key={item} value={item}>{item}+ BR</option>
@@ -87,29 +87,6 @@ export default class Header extends Component {
       <span className="title">Floor Space</span>
         <input type="text" name="min_floor_space" className="min-floor-space" onChange={this.props.change} value= {this.props.globalState.min_floor_space}/>
         <input type="text" name="max_floor_space" className="max-floor-space" onChange={this.props.change} value={this.props.globalState.max_floor_space}/>
-      </div>
-      <div className="filters extras">
-        <span className="title">Extras</span>
-        <label htmlFor="extras">
-            <span>Elevators</span>
-            <input name="elevator" value="elevator" type="checkbox" onChange={this.props.change}/>
-        </label>
-         <label htmlFor="extras">
-            <span>Swimming Pool</span>
-            <input name="swimming_pool" value="swimming_pool" type="checkbox" onChange={this.props.change}/>
-        </label>
-         <label htmlFor="extras">
-            <span>Finished Basement</span>
-            <input name="finished_basement" value="finished_basement" type="checkbox" onChange={this.props.change}/>
-        </label>
-        <label htmlFor="extras">
-            <span>Gym</span>
-            <input name="gym" value="gym" type="checkbox" onChange={this.props.change}/>
-        </label>
-        
-        
-      
-      
       </div>
      </div>
     </section>

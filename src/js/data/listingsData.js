@@ -31,7 +31,7 @@ var listingsData = [
                         
                         homeType: 'Room',
                         image: 
-                        'http://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4052-25/domain-apartments-building.jpg     '
+                        'https://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4052-25/domain-apartments-building.jpg     '
                 },
                
                
@@ -49,7 +49,7 @@ var listingsData = [
                         
                         homeType: 'Apartment',
                         image: 
-                        'http://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4206-28/the-kelvin-apartments-exterior.jpg'
+                        'https://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4206-28/the-kelvin-apartments-exterior.jpg'
                 },
                 {
                     address: '2026 Scott Street',
@@ -65,7 +65,7 @@ var listingsData = [
                         
                         homeType: 'Single Home',
                         image: 
-                        'http://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4206-28/the-kelvin-apartments-exterior.jpg'
+                        'https://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4206-28/the-kelvin-apartments-exterior.jpg'
                  },
                
                 {
@@ -99,7 +99,7 @@ var listingsData = [
                         
                         homeType: 'Apartment',
                         image: 
-                        'http://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4206-28/the-kelvin-apartments-exterior.jpg'
+                        'https://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_80/4206-28/the-kelvin-apartments-exterior.jpg'
                 },
                 
                 {
@@ -116,8 +116,7 @@ var listingsData = [
                         
                         homeType: 'Apartment',
                         image: 
-                        'http://www.mynicheapartments.com/media/niche_images/dsc_2450_2rszBMh.jpg.994x549_q85_crop-center_upscale.jpg'
-                 },
+"https://media.equityapartments.com/images/q_50/f_auto/fl_lossy/4206-8/the-kelvin-apartments-pool"     },
             
           {
             address: '1607 23rd Street NW',

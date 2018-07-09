@@ -132,7 +132,7 @@ export default class Header extends Component {
      </section>
      
      <section className="listings-results">
-     <div class="row">
+     <div className="row">
         {this.loopListings()}
         </div>
      </section>
