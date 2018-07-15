@@ -219,12 +219,23 @@ h1 {
 header {
   background: #0C002B;
   color: white;
-  overflow: auto;
-  padding: 20px 15px; }
+  overflow: hidden;
+  padding: 24px 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 73px; }
   header .logo {
-    float: left; }
+    float: left;
+    height: 44px;
+    width: 191px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://logoobject.com/wp-content/uploads/2017/12/Real-Estate-Logo-Design-Elements-999x999.png");
+    background-repeat: no-repeat; }
   header nav {
-    float: right; }
+    float: right;
+    margin-top: 9px; }
     header nav a {
       color: white;
       padding: 7px 20px;
@@ -380,7 +391,7 @@ header {
         background: -moz-linear-gradient(-45deg, rgba(78, 2, 229, 0.8) 0%, rgba(157, 28, 237, 0.8) 100%);
         background: -webkit-linear-gradient(-45deg, rgba(78, 2, 229, 0.8) 0%, rgba(157, 28, 237, 0.8) 100%);
         background: linear-gradient(135deg, rgba(78, 2, 229, 0.8) 0rgba 157, 28, 237, 0.8 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#4e02e5', endColorstr='#9d1ced', GradientType=1); }
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#4e02e5', endColorstr='#9d1ced', GradientType=1); }
         #listings .listings-results .listing-img .details .user-img {
           margin-left: -20px;
           width: 35px;

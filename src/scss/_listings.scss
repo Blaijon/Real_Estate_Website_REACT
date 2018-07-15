@@ -1,28 +1,38 @@
 @import "variables";
 
 header{
-    background:#0C002B;
-    color:white;
-    overflow:auto;
-    padding: 20px 15px;
-    
+  background: #0C002B;
+  color: white;
+  overflow: hidden;
+  padding: 24px 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 73px;
+
     .logo{
-        float:left;
-    }
+      float: left;
+          height: 44px;
+          width: 191px;
+          text-align: center;
+          background-size: cover;
+          background-position: center;
+          background-image: url('https://logoobject.com/wp-content/uploads/2017/12/Real-Estate-Logo-Design-Elements-999x999.png');
+          background-repeat: no-repeat;    }
     nav{
-        float:right;
-         a{
+      float: right;
+          margin-top: 9px;
+     a{
             color:white;
             padding: 7px 20px;
             text-decoration: none;
             text-transform: capitalize;
             font-weight:300;
             font-size: 0.9rem;
-           
+
             &:hover{
                 color: #FF718E;
             }
-            
+
             &.register-btn {
              background: $pink;
              padding: 7px 25px;
