@@ -5,8 +5,7 @@ Click Here to Visit my Website: [http://findyourstay.online/](http://findyoursta
 
 ## Project Description
 
-This Project was designed for a local American Restarunt that needed a landing page on the web. On their landing page are their menus, history, and the ability to make reservation. In this school project I worked in a team of 3; I helped build the first page and menu page of the Restarunt. 
-
+This Single Page Project was a prototype designed for a local travel company that wanted to show their client's available listings. This project gives the user the ability to specify the number of rooms and price of the home they choose. The Technologies I used are down below.
 ![An image of the app](http://blaijonheads.com/images/macbook2.jpg)
 
 ## Technologies
